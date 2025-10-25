@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = C:\Users\merca\Desktop\temp
+    url = s3://utube-comment-sentiment-analysis
