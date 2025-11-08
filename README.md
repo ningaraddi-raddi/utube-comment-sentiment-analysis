@@ -39,8 +39,10 @@ Training on Reddit data ensures the model understands human emotion in informal 
 
 <img width="424" height="605" alt="image" src="https://github.com/user-attachments/assets/ee4f5009-9c9f-4797-91fa-a3577ddb7dc4" />
 
-<img width="491" height="799" alt="image" src="https://github.com/user-attachments/assets/3c0b6341-103c-4fb2-abbd-99fa68371396" />
+<img width="427" height="825" alt="image" src="https://github.com/user-attachments/assets/11f9f520-f727-4716-b346-b80b476b001b" />
 
 
-**for front end use repo https://github.com/ningaraddi-raddi/utube-chrome-plugin-frontend**
+
+
+**for Front-end use repo https://github.com/ningaraddi-raddi/utube-chrome-plugin-frontend**
 
