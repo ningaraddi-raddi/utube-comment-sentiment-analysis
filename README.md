@@ -1,57 +1,45 @@
-utube-comment-sentiment-analysis
-==============================
+# utube-comment-sentiment-analysis
+A lightweight NLP-based plugin that detects the sentiment of YouTube comments, with a focus on educational channels.
+The model is trained on Reddit comments datasets, which offer diverse and real-world textual data suitable for sentiment classification.
 
-A small plugin to detect utube comment sentiments
+ **Overview**
 
-Project Organization
-------------
+This project applies Natural Language Processing (NLP) and Machine Learning to automatically evaluate the emotional tone of YouTube comments — whether they are positive, negative, or neutral.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+Although the final application targets YouTube comment sections, the model has been pre-trained on Reddit comment datasets due to their large size and rich emotional variety, helping the model generalize well to social media language patterns.
+
+**Why Reddit Dataset?**
+
+Reddit is one of the largest social discussion platforms.
+Its comment datasets are ideal for sentiment analysis because they:
+
+Contain millions of labeled text samples across diverse topics.
+
+Reflect real-world internet conversation style, including slang, sarcasm, and emojis.
+
+Provide better generalization for models that later analyze YouTube comments.
+
+Training on Reddit data ensures the model understands human emotion in informal text better than models trained only on formal reviews.
+
+**Features**
+
+ Sentiment detection (Positive / Negative / Neutral)
+ Model trained on Reddit comments dataset
+ Comment cleaning and preprocessing (stopword removal, punctuation stripping, lemmatization)
+ Visualization of sentiment trends across YouTube channels
+ Easily deployable as a plugin or standalone script
+
+ 
+<img width="1774" height="947" alt="image" src="https://github.com/user-attachments/assets/869cf89b-9d58-4126-92e1-2c2d9422bf0a" />
+
+<img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/427786e7-93b5-4314-9644-a4cde257143a" />
+
+<img width="657" height="848" alt="image" src="https://github.com/user-attachments/assets/eace0ff6-9301-4510-9087-7b21ae66eb7c" />
+
+<img width="1420" height="854" alt="image" src="https://github.com/user-attachments/assets/a66cec85-6d26-4c43-a69e-d2f9e081fbf6" />
+
+<img width="1512" height="818" alt="image" src="https://github.com/user-attachments/assets/7f314185-08cb-498c-a0e6-8cbee4c4176f" />
 
 
---------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
