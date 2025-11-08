@@ -29,17 +29,18 @@ Training on Reddit data ensures the model understands human emotion in informal 
  Visualization of sentiment trends across YouTube channels
  Easily deployable as a plugin or standalone script
 
- 
+ <img width="446" height="580" alt="image" src="https://github.com/user-attachments/assets/bde8cd66-210b-444b-ab21-fa4ac958e651" />
+
 <img width="1774" height="947" alt="image" src="https://github.com/user-attachments/assets/869cf89b-9d58-4126-92e1-2c2d9422bf0a" />
 
-<img width="1491" height="816" alt="image" src="https://github.com/user-attachments/assets/427786e7-93b5-4314-9644-a4cde257143a" />
+<img width="584" height="817" alt="image" src="https://github.com/user-attachments/assets/1d30ce6f-32c2-46ba-9d4f-3e460dc7ecd3" />
 
-<img width="657" height="848" alt="image" src="https://github.com/user-attachments/assets/eace0ff6-9301-4510-9087-7b21ae66eb7c" />
+<img width="636" height="868" alt="image" src="https://github.com/user-attachments/assets/285c5059-592e-4440-92f7-3d79d5adf3ee" />
 
-<img width="1420" height="854" alt="image" src="https://github.com/user-attachments/assets/a66cec85-6d26-4c43-a69e-d2f9e081fbf6" />
+<img width="424" height="605" alt="image" src="https://github.com/user-attachments/assets/ee4f5009-9c9f-4797-91fa-a3577ddb7dc4" />
 
-<img width="1512" height="818" alt="image" src="https://github.com/user-attachments/assets/7f314185-08cb-498c-a0e6-8cbee4c4176f" />
+<img width="491" height="799" alt="image" src="https://github.com/user-attachments/assets/3c0b6341-103c-4fb2-abbd-99fa68371396" />
 
 
-
+**for front end use repo https://github.com/ningaraddi-raddi/utube-chrome-plugin-frontend**
 
